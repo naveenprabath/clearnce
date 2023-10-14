@@ -37,7 +37,7 @@ export default function Navigation() {
             <NavDropdown.Divider /> <NavDropdown.Item href="#action/3.4"> Separated link  </NavDropdown.Item>
           </NavDropdown>
           
-        <Form inline style={{textAlign:'right'}} >
+        <Form inline className="ml-auto" >
         <Row >
           <Col >
             <Form.Control   type="text"  placeholder="Search" className=" mr-sm-2" />

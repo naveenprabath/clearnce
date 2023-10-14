@@ -2,12 +2,8 @@ import React from 'react'
 import Navigation from '../components/Navigation'
 import  Stack  from '../components/Stack'
 import  Image from '../components/Image'
-
-
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-
 import Card from 'react-bootstrap/Card';
 import { Col } from 'react-bootstrap';
 
@@ -20,7 +16,7 @@ function ContainerExample() {
    
   };
   const pageStyles = {
-    backgroundColor: '	#800000',
+    backgroundColor: '#B8E3FF',
     minHeight: '100vh'
   };
   
@@ -29,11 +25,10 @@ function ContainerExample() {
    <br/>
    <br/>
     <Container>
-    <Row style= {rowStyle}><Stack/>    </Row>
+    <Stack/>    
       <Row style= {rowStyle}><Navigation/>    </Row>
       <Row style= {rowStyle}></Row>
-      <Row style= {rowStyle}></Row>
-      <Row style= {rowStyle}><h1 style={{fontFamily:'times new roman', color: "#FFFFFF"}}>University Of Peradeniya Faculty Of Science Clearnce System</h1></Row>
+      <Row style= {rowStyle}><h1 style={{fontFamily:'times new roman', color: "black"}}>University Of Peradeniya Faculty Of Science Clearnce System</h1></Row>
       <Row style= {rowStyle}></Row>
       <Row style= {rowStyle}></Row>
       <Row style= {rowStyle}></Row>
@@ -98,11 +93,27 @@ function ContainerExample() {
     <Container>
       <Row>
         <Col>
-        <h1 style={{fontFamily:'times new roman', color: "#FFFFFF"}}>About Us</h1>
+        <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Body>
+        <Card.Title>About us</Card.Title>
+        <Card.Text>
+         xxxxx
+        </Card.Text>
+       </Card.Body>
+       </Card>
         </Col>
 
         <Col>
-        <h1 style={{fontFamily:'times new roman', color: "#FFFFFF"}} > The Team</h1>
+          <Card style={{ width: '18rem' }}>
+           <Card.Img variant="top" src="holder.js/100px180" />
+           <Card.Body>
+           <Card.Title>The Team</Card.Title>
+           <Card.Text>
+            xxxxx
+           </Card.Text>
+          </Card.Body>
+           </Card>
         </Col>
       </Row>
 
@@ -113,7 +124,7 @@ function ContainerExample() {
       <Row>
         <footer>
           <Col> </Col>
-          <Col><p style={{fontFamily:'times new roman', color: "#FFFFFF"}}>..........................................................................................................................................................Copy Right Issuess.......................................................................................................................................</p></Col>
+          <Col><p style={{fontFamily:'times new roman', color: "black"}}>..........................................................................................................................................................Copy Right Issuess.......................................................................................................................................</p></Col>
         </footer>
       </Row>
     </Container>

@@ -11,7 +11,7 @@ import Stack from '../components/Stack';
 export default function Signup() {
     const pageStyles = {
         margin: '40px',
-        backgroundColor: '	#800000',
+        backgroundColor: '#B8E3FF',
         flexDirection: 'column',
         justifyContent: 'center', 
         alignItems: 'center', 

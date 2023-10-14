@@ -12,7 +12,7 @@ export default function Dema() {
     const pageStyles = {
         margin: '40px', 
         maxWidth: '',
-        backgroundColor: '	#800000',
+        backgroundColor: '#B8E3FF',
         flexDirection: 'column',
         justifyContent: 'center', 
         alignItems: 'center',
