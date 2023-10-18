@@ -30,7 +30,7 @@ export default function Signup() {
       <Container>
         <Col>
         <Form>
-      <Form.Group className="mb-3" controlId="formBasicUserName">
+      <Form.Group className="mb-3" controlId="fullName">
         <Form.Label>Full Name</Form.Label>
         <Form.Control type="text" placeholder="Enter Name" />
         <Form.Text className="text-muted">
